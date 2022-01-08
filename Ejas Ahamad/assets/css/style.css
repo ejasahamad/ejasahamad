@@ -120,7 +120,6 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     left: -300px;
   }
-
   #main {
     margin-left: 0;
   }
@@ -196,9 +195,8 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
   height: 100vh;
-  background: url("../img/backgroud.jpg") top center;
+  background: url("../img/Ajas.jpg") top center;
   background-size: cover;
 }
 #hero:before {
@@ -241,6 +239,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 768px) {
+  #hero{background: url("../img/IMG_20210812_084533.jpg")
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
